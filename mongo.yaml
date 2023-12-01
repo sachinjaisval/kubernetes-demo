@@ -30,6 +30,7 @@ spec:
             secretKeyRef:
               name: mongodb-secret
               key: mongo-root-password
+---
 apiVersion: v1
 kind: Service
 metadata:
